@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>جهان افروز | تجهیزات گرمایشی</title>
+
+    <meta name="description" content="معرفی محصولات و تجهیزات گرمایشی جهان افروز">
+
+    <link rel="icon" type="image/png" href="logo.png">
+
+    <link rel="stylesheet" href="jahan.css">
+</head>
+
+<body>
+
+    <header>
+    
+
+<a href="jahan.html" class="logo">
+    <img src="logo.png" alt="لوگوی جهان افروز">
+    <span>جهان افروز</span>
+</a>
+
+
+    <button class="menu-btn" id="menuBtn">
+        ☰
+    </button>
+
+    <nav id="navMenu">
+        <a href="#home">خانه</a>
+        <a href="#products">محصولات</a>
+        <a href="#about">درباره ما</a>
+        <a href="#contact">تماس با ما</a>
+    </nav>
+    </header>
+
+
+    <!-- Main Section -->
+    <main>
+
+        
+<section class="hero">
+    <div class="slide active">
+        <h1>به جهان افروز خوش آمدید</h1>
+        <p>تجهیزات گرمایشی با کیفیت برای خانه شما</p>
+        <a href="#products">مشاهده محصولات</a>
+    </div>
+
+    <div class="slide">
+        <h1>گرمای مطمئن خانه شما</h1>
+        <p>انواع پکیج و رادیاتور با کیفیت</p>
+        <a href="#products">محصولات ما</a>
+    </div>
+
+    <div class="slide">
+        <h1>جهان افروز، انتخابی مطمئن</h1>
+        <p>تأمین تجهیزات گرمایشی مورد نیاز شما</p>
+        <a href="#contact">ارتباط با ما</a>
+    </div>
+
+    <div class="slider-buttons">
+        <button id="prevBtn">❮</button>
+        <button id="nextBtn">❯</button>
+    </div>
+</section>
+
+
+
+<div class="search-box">
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="نام محصول را جستجو کنید..."
+    >
+</div>
+
+
+       
+<section id="products">
+
+    <h2>محصولات جهان افروز</h2>
+
+    <div class="products">
+
+        <!-- Package -->
+        <div class="product">
+            <a href="cooler.html">
+            <img src="2.png" alt="کولر ابی"
+            </a>
+            <h3>کولر آبی</h3>
+            
+           <p>انواع کولر با کیفیت</p>
+           <br>
+            <a href="#contact" class="product-btn">اطلاعات بیشتر</a>
+        </div>
+
+        <!-- Heater -->
+        <div class="product">
+            <a href="heater2.html">
+            <img src="1.png" alt="بخاری">
+            </a>
+            <h3>بخاری</h3>
+            
+            <p>انواع تجهیزات گرمایشی برای محیط‌های مختلف</p>
+            <a href="#contact" class="product-btn">اطلاعات بیشتر</a>
+        </div>
+
+        <!-- Water Heater -->
+        <div class="product">
+            <a href="heater.html">
+            <img src="4.png" alt="بخاری برقی"
+            </a>
+            <h3>بخاری برقی</h3>
+        
+             <p>تجهیزات سیستم گرمایشی برقی</p>
+             <br>
+            <a href="#contact" class="product-btn">اطلاعات بیشتر</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="gallery">
+    <h2>گالری محصولات جهان افروز</h2>
+
+    <div class="gallery-container">
+
+        <img class="gallery-img"
+             src="10.png"
+             alt="کولر">
+
+        <img class="gallery-img"
+             src="41.png"
+             alt="بخاری برقی">
+
+        <img class="gallery-img"
+             src="6.png"
+             alt="بخاری"
+
+    </div>
+
+</section>
+
+<div id="imageModal" class="image-modal">
+    <span id="closeModal">&times;</span>
+    <img id="modalImage" src="" alt="تصویر بزرگ محصول">
+</div>
+
+
+
+
+        <!-- About -->
+        <section id="about">
+
+            <h2>درباره جهان افروز</h2>
+
+            <p>
+                به وب‌سایت رسمی جهان افروز خوش آمدید.
+                برای آشنایی بیشتر با محصولات ما همراه باشید.
+            </p>
+
+        </section>
+
+
+        <!-- Contact -->
+        
+<section id="contact">
+    <h2>ارتباط با جهان افروز</h2>
+
+    <form id="contactForm">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="نام و نام خانوادگی"
+        >
+
+        <input
+            type="tel"
+            id="phone"
+            placeholder="شماره تماس"
+        >
+
+        <textarea
+            id="message"
+            placeholder="پیام خود را بنویسید..."
+        ></textarea>
+
+        <button type="submit">ارسال پیام</button>
+
+    </form>
+
+    <p id="formResult"></p>
+</section>
+
+
+
+    </main>
+
+
+    <!-- Footer -->
+<footer class="main-footer">
+
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>جهان افروز</h3>
+            <p>
+                ارائه دهنده انواع تجهیزات گرمایشی
+                و سرمایشی با کیفیت
+            </p>
+        </div>
+
+        <div class="footer-section">
+            <h3>دسترسی سریع</h3>
+            <a href="#home">خانه</a>
+            <a href="#products">محصولات</a>
+            <a href="#about">درباره ما</a>
+            <a href="#contact">تماس با ما</a>
+        </div>
+
+        <div class="footer-section">
+            <h3>ارتباط با ما</h3>
+            <p>تلفن: ۰۹۱۲۱۲۳۴۵۶۷</p>
+            <p>ایمیل: info@example.com</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>تمامی حقوق متعلق به جهان افروز است.</p>
+    </div>
+
+    </footer>
+
+
+<button id="backToTop" title="بازگشت به بالا">
+    ↑
+</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
